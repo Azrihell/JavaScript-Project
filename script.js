@@ -1,4 +1,4 @@
-function sing(song) {
+/*function sing(song) {
   console.log(song);
 }
 
@@ -8,11 +8,11 @@ sing("ke ke ke")
 
 
 function multiply(a,b) {
-  if (a > 10 || b > 10) {
-      return "thats too hard";
-  } else {
       return a*b;
   }
-}
 
-multiply(5,10);
+alert(multiply(3,4));
+*/
+
+var list = ["tiger", "cat", "bear", "bird"];
+console.log(list[0]);
