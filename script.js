@@ -15,4 +15,5 @@ alert(multiply(3,4));
 */
 
 var list = ["tiger", "cat", "bear", "bird"];
-console.log(list[0]);
+list.push ("fish");
+console.log(list);
