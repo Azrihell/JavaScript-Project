@@ -26,3 +26,14 @@ var user = {
   isMarried: false,
   favoriteFoods: ["apple", "chicken", "brownie"]
 };
+
+var list = [
+  {
+    username: "johndoe",
+    password: "secret"
+  },
+  {
+    username: "janedoe",
+    password: "secret123"
+  }
+];
