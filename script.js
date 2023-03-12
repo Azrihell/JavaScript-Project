@@ -14,6 +14,14 @@ function multiply(a,b) {
 alert(multiply(3,4));
 */
 
-var list = ["tiger", "cat", "bear", "bird"];
+/*var list = ["tiger", "cat", "bear", "bird"];
 list.push ("fish");
 console.log(list);
+*/
+
+var user = {
+  name: "John",
+  age: 25,
+  hobby: "Golf",
+  isMarried: false,
+};
