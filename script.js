@@ -24,7 +24,10 @@ var user = {
   age: 25,
   hobby: "Golf",
   isMarried: false,
-  favoriteFoods: ["apple", "chicken", "brownie"]
+  favoriteFoods: ["apple", "chicken", "brownie"],
+  shout: function() {
+    console.log("AHHHH");
+  }
 };
 
 var list = [
