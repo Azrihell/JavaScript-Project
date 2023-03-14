@@ -19,7 +19,7 @@ list.push ("fish");
 console.log(list);
 */
 
-var user = {
+/*var user = {
   name: "John",
   age: 25,
   hobby: "Golf",
@@ -40,3 +40,25 @@ var list = [
     password: "secret123"
   }
 ];
+*/
+
+var database = [
+  {
+    username: "Az",
+    password: "superSecret"
+  }
+];
+
+var newsFeed = [
+  {
+    username: "John",
+    timeline: "super tired from all that climbing."
+  },
+  {
+    username: "Jane",
+    timeline: "Climbing is so much fun!"
+  }
+];
+
+var userNamePrompt = prompt("What's your username?");
+var passwordPrompt = prompt("What's your password?");
