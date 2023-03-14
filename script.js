@@ -70,3 +70,5 @@ function signIn(username, password) {
   alert("Wrong username or password, please try again.");
 }
 }
+
+signIn(userNamePrompt, passwordPrompt);
