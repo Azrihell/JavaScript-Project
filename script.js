@@ -42,6 +42,7 @@ var list = [
 ];
 */
 
+/*
 var database = [
   {
     username: "Az",
@@ -72,3 +73,5 @@ function signIn(username, password) {
 }
 
 signIn(userNamePrompt, passwordPrompt);
+*/
+
