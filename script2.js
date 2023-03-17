@@ -6,6 +6,14 @@ var todo = [
   "go to gym",
 ];
 
+var todoImportant = [
+  "clean room!",
+  "brush teeth!",
+  "exercize!",
+  "study javascript!",
+  "go to gym!",
+];
+
 var todoLength = todo.length;
 
 /*
@@ -19,5 +27,6 @@ function logTodo(todo, i) {
 }
 
 todo.forEach(logTodo);
+todoImportant.forEach(logTodo);
 
 
