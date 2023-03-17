@@ -34,20 +34,17 @@ function isUserValid(username, password) {
     return false;
 }
 function signIn(username, password) {
-  console.log(isUserValid(username, password));
+  if (isUserValid(username, password)) {
+    console.log(newsFeed);
+  } else {
+    alert("Wrong username or password, please try again.");
+  }
+
 }
 
 var userNamePrompt = prompt("What's your username?");
 var passwordPrompt = prompt("What's your password?");
 
 signIn(userNamePrompt, passwordPrompt);
-
-
-
-  //   if (username === database[0].username && password === database[0].password) {
-  //   console.log(newsFeed);
-  // } else {
-  //   alert("Wrong username or password, please try again.");
-  // }
 
 
