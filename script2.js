@@ -8,19 +8,16 @@ var todo = [
 
 var todoLength = todo.length;
 
-for (var i=0; i < todo,length; i++) {
-  todo.pop();
-}
-
-todo.forEach(function(todo, i) {
-  console.log(todo, i);
-})
-
 /*
-var counterOne = 10;
-while (counterOne > 0) {
-  console.log(counterOne);
-  counterOne--;
+for (var i=0; i < todo,length; i++) {
+  console.log(todo[i], i);
 }
 */
+
+function logTodo(todo, i) {
+  console.log(todo, i);
+}
+
+todo.forEach(logTodo);
+
 
