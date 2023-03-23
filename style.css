@@ -1,18 +1,20 @@
 .navbar {
+  text-transform: uppercase;
+  letter-spacing: .3em;
   overflow: hidden;
-background-color: darkblue;
-position: sticky;
-position: -webkit-sticky;
-top: 0;
+  background-color: darkblue;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .navbar a {
   float: left;
-display: block;
-color: white;
-text-align: center;
-padding: 14px 20px;
-text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
 .navbar a:hover {
@@ -20,3 +22,14 @@ text-decoration: none;
   color: black;
 }
 
+body {
+  font:'Raleway', sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: none;
+  letter-spacing: .03em;
+  top: 15%;
+}
+
+main {
+  margin-left: 20px;
+}
