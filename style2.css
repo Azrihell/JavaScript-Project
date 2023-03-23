@@ -29,7 +29,7 @@ body {
   text-transform: uppercase;
   letter-spacing: .5em;
   top: 15%;
-  background: linear-gradient(to right, pink, lightblue);
+  background: linear-gradient(to right, #ffaefc, #9863ff);
 
 }
 
