@@ -120,3 +120,100 @@ todoImportant.forEach(logTodo);
 
 
 */
+
+
+// // scope
+
+// // root scope (window)
+// var fun = 5;
+
+// function funFunction() {
+//   // child scope
+//   var fun = "hello!";
+//   console.log(1, fun);
+// }
+
+// function funnerFunction() {
+//   // child scope
+//   var fun = "bye!";
+//   console.log(2, fun);
+// }
+
+// function funnestFunction() {
+//   // child scope
+//   fun = "OMG!";
+//   console.log(3, fun);
+// }
+
+// console.log("window", fun);
+
+
+
+
+
+// // let + const
+
+// const player = 'bobby'
+// let experience = 100;
+// let wizardLevel = true;
+
+// if (experience > 90) {
+//   // let creates new scope inside {}
+//   let wizardLevel = true;
+//   console.log('inside', wizardLevel);
+// }
+
+
+
+
+
+// // destructuring
+// const obj = {
+//   player: 'john',
+//   experience: 100,
+//   wizardLevel: false
+// }
+
+// const player = obj.player;
+// const experience = obj.experience;
+// let wizardLevel = obj.wizardLevel;
+
+// const { player, experience } = obj;
+// let { wizardLevel } = obj;
+
+
+
+
+
+// object properties
+
+// const name = 'john doe'
+
+// const obj = {
+//   [name]: 'hello',
+//   ['jane' + 'doe']: 'hiHi'
+// }
+
+// const a = "simon";
+// const b = true;
+// const c = {};
+
+// const obj = {
+//   a,
+//   b,
+//   c
+// }
+
+
+
+// // template strings
+
+// const name = "sally";
+// const age = 34;
+// const pet = "cat"
+
+// const greeting = "hello" + name + "you seem to be doing" + greeting + !
+
+// const greetingBest = `Hello ${name} you seem to be ${age-10}. What a lovely ${pet} you have`;
+
+
