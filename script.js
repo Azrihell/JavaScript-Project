@@ -193,6 +193,7 @@ todoImportant.forEach(logTodo);
 //   [name]: 'hello',
 //   ['jane' + 'doe']: 'hiHi'
 // }
+// console.log(obj["john doe"])
 
 // const a = "simon";
 // const b = true;
@@ -217,3 +218,32 @@ todoImportant.forEach(logTodo);
 // const greetingBest = `Hello ${name} you seem to be ${age-10}. What a lovely ${pet} you have`;
 
 
+
+
+// // default arguments
+
+// function greet(name='', age=30, pet='cat') {
+//   return `Hello ${name} you seem to be ${age-10}. What a lovely ${pet} you have`;
+// }
+
+// // greet("john", 30, "dog")
+
+// // symbol
+
+// let sym1 = Symbol();
+// let sym2 = Symbol('yes');
+// let sym3 = Symbol('yes');
+// // sym2 === sym3 ------------false
+
+
+
+
+
+// // arrow functions
+
+// function add (a, b) {
+//   return a + b;
+// }
+
+// const add = (a, b) => a + b;
+// // use when there is one return
