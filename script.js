@@ -249,23 +249,32 @@ todoImportant.forEach(logTodo);
 // // use when there is one return
 
 
-const first = () => {
-  const greet = 'hi';
-  const second = () => {
-  }
-  return second;
-}
+// const first = () => {
+//   const greet = 'hi';
+//   const second = () => {
+//   }
+//   return second;
+// }
 
-const newFunc = first();
-newFunc();
+// const newFunc = first();
+// newFunc();
 
 // closures
 //  children always have access to their parents scope, but parent scopes do not have access to their children.
 
 
-// currying
-const multiply = (a, b) => a * b;
-const curriedMultiply = (a) => (b) => a * b;
-curriedMultiply(3)
-// curriedMultiply(3)(4);
-// this is a munction inside a function
+// // currying
+// const multiply = (a, b) => a * b;
+// const curriedMultiply = (a) => (b) => a * b;
+// curriedMultiply(3)
+// // curriedMultiply(3)(4);
+// // this is a munction inside a function
+
+
+
+// // compose
+// const compose = (f, g) => (a) => f(g(a));
+
+// const sum = (num) => num + 1;
+
+// compose(sum, sum)(5);
