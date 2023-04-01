@@ -389,4 +389,10 @@ todoImportant.forEach(logTodo);
 
 
 
+// //flat
+// const entries = ['John', 'Jane',,,,,,,'Cindy', ['Joe']]
+// entries.flat()
 
+// //flatMap
+// const entries = ['John', 'Jane',,,,,,,'Cindy', ['Joe']]
+// const entriesDetails = entries.flatMap(names => names + '10');
