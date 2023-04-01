@@ -354,3 +354,39 @@ todoImportant.forEach(logTodo);
 
 // const wizard1 = new Wizard('John', 'Healer');
 // const wizard2 = new Wizard('Jane', 'Dark Magic user');
+
+
+
+
+
+// // Object.keys
+// // Object.values
+// // Object.entries
+
+// let obj = {
+//   username0: 'John Doe',
+//   username1: 'Jane Doe',
+//   username3: 'Shellie'
+// }
+
+// Object.keys(obj).forEach((key, index) => {
+//   console.log(key, obj[key]);
+// })
+
+// Object.values(obj).forEach(value => {
+//   console.log(value);
+// })
+
+// Object.entries(obj).forEach(value => {
+//   console.log(value);
+// })
+
+// //irl example
+
+// Object.entries(obj).map(value=> {
+//   return value[1] + value[0].replace('username', '');
+// })
+
+
+
+
