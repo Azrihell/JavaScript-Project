@@ -281,33 +281,76 @@ todoImportant.forEach(logTodo);
 
 
 
-// advanced arrays
+// // advanced arrays
 
-const array = [1, 2, 10, 16];
+// const array = [1, 2, 10, 16];
 
-const double = []
-const newArray = array.forEach(num => {
-  double.push(num * 2);
-})
+// const double = []
+// const newArray = array.forEach(num => {
+//   double.push(num * 2);
+// })
 
-console.log('forEach', double);
+// console.log('forEach', double);
 
-// map, filter, reduce
+// // map, filter, reduce
 
-const mapArray = array.map(num => num * 2);
+// const mapArray = array.map(num => num * 2);
 
-console.log('map', mapArray);
+// console.log('map', mapArray);
 
-// filter
+// // filter
 
-const filterArray = array.filter(num => num > 5);
+// const filterArray = array.filter(num => num > 5);
 
-console.log('filter', filterArray);
+// console.log('filter', filterArray);
 
-// reduce
+// // reduce
 
-const reduceArray = array.reduce((accumulator, num) => {
-  return accumulator + num
-}, 0);
+// const reduceArray = array.reduce((accumulator, num) => {
+//   return accumulator + num
+// }, 0);
 
-console.log('reduce', reduceArray);
+// console.log('reduce', reduceArray);
+
+
+
+
+// // reference type
+
+// var object1 = { value: 10 };
+// var object2 = object1;
+// var object3 = { value: 10 };
+
+// // context
+
+// var object4 = {
+//   a: function() {
+//     console.log(this);
+//   }
+// }
+
+// // instantation
+
+// class Player {
+//   constructor(name, type) {
+//     console.log('player', this);
+//     this.name = name;
+//     this.type = type;
+//   }
+//   introduce() {
+//     console.log('Hi I am ${this.name}, I am a ${this.type}')
+//   }
+// }
+
+// class Wizard extends Player {
+//   constructor(name, type) {
+//     super(name, type)
+//     console.log('wizard', this);
+//   }
+//   play() {
+//     console.log('Woo I am a ${this.type}');
+//   }
+// }
+
+// const wizard1 = new Wizard('John', 'Healer');
+// const wizard2 = new Wizard('Jane', 'Dark Magic user');
