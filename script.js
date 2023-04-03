@@ -437,3 +437,34 @@ todoImportant.forEach(logTodo);
 // for (item in detailedBasket) {
 //   console.log(item)
 // }
+
+
+
+// let johndoe_pokemon = {
+//   pikachu: {
+//     species: 'mouse pokemon',
+//     height: 1,
+//     weight: 3,
+//     power: 0
+//   }
+// }
+
+// let power = johndoe_pokemon?.pikachu?.power || 'no power'
+// // let power = johndoe_pokemon?.pikachu?.power ?? 'no power'
+// console.log(power)
+
+
+// //replaceAll vs replace
+// const str = "I am the best of the best"
+
+// str.replace('best', 'worst')
+
+// str.replaceAll('best', 'worst')
+
+
+// //array .at
+
+// const arr = [10, 20, 30, 400, 50]
+
+// arr.at(-2)
+// arr.at(0)
