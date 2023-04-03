@@ -396,3 +396,44 @@ todoImportant.forEach(logTodo);
 // //flatMap
 // const entries = ['John', 'Jane',,,,,,,'Cindy', ['Joe']]
 // const entriesDetails = entries.flatMap(names => names + '10');
+
+
+
+// //advanced loops
+
+// const basket = ['apples', 'oranges', 'grapes'];
+// const detailedBasket = {
+//   apples: 2,
+//   oranges: 5,
+//   grapes: 100
+// }
+
+// //1
+// // for ( let i = 0; i < basket.length; i++) {
+// //   console.log(basket[i]);
+// // }
+
+// // //2
+// // basket.forEach(item => {
+// //   console.log(item);
+// // })
+
+// //for of
+// // iterating - arrays and strings
+
+
+// //array example
+// for (item of basket) {
+//   console.log(item);
+// }
+
+// //string example
+// // for (item of 'basket') {
+// //   console.log(item);
+// // }
+
+// //for in
+// //enumerating - objects
+// for (item in detailedBasket) {
+//   console.log(item)
+// }
