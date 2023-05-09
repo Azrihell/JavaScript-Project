@@ -23,7 +23,7 @@
 }
 
 body {
-  font:'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: rgb(0, 0, 0);
   text-align: none;
   letter-spacing: .03em;
